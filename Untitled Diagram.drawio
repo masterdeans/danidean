@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-18T02:58:43.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="WhDVW9qQLIDGdlG2BTNd" compressed="false" version="13.7.3" type="github">
-  <diagram id="Xkr1ojVR8jTouUEQAdM9" name="Page-1">
-    <mxGraphModel dx="1279" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2020-09-18T03:25:34.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="iRS_FnGt9xQe7psglORM" compressed="false" version="13.7.3" type="github" pages="2">
+  <diagram id="Xkr1ojVR8jTouUEQAdM9" name="PSCS flow diagram">
+    <mxGraphModel dx="617" dy="1432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -326,7 +326,7 @@
         <mxCell id="yJipTLfowuC2AWkGN2Az-83" value="+ State: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yJipTLfowuC2AWkGN2Az-74" vertex="1">
           <mxGeometry y="182" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yJipTLfowuC2AWkGN2Az-84" value="+ Postal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yJipTLfowuC2AWkGN2Az-74" vertex="1">
+        <mxCell id="yJipTLfowuC2AWkGN2Az-84" value="+ Postal : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yJipTLfowuC2AWkGN2Az-74" vertex="1">
           <mxGeometry y="208" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yJipTLfowuC2AWkGN2Az-31" value="Application Data" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
@@ -517,6 +517,17 @@
         </mxCell>
         <mxCell id="BVpUQjcPfSpx3a0FSW65-89" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="-1080" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PZ7A_AvTy1Xx865y7w8i" name="SQL database">
+    <mxGraphModel dx="895" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="ES5bPRw_T_LUZl0YmbPk-0" />
+        <mxCell id="ES5bPRw_T_LUZl0YmbPk-1" parent="ES5bPRw_T_LUZl0YmbPk-0" />
+        <mxCell id="ES5bPRw_T_LUZl0YmbPk-2" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;NEWAPPLICANT_TBL&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;IDnumber : int(11)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;lastname : varchar(30)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;firstname : varchar(30)&lt;br&gt;middlename: varchar(30)&lt;br&gt;Suffix: varchar(15)&lt;br&gt;dateofbirth: datetime&lt;br&gt;martialStatus: varchar(30)&lt;br&gt;gender: varchar(30)&lt;br&gt;country: varchar(30)&lt;br&gt;nationalIdType: varchar(30)&lt;br&gt;nationalId: int&lt;br&gt;country: varchar(30)&lt;br&gt;phonetype: varchar(30)&lt;br&gt;phonenumber: int&lt;br&gt;emailType: varchar(30)&lt;br&gt;emailAddress: varchar(30)&lt;br&gt;birthLocation: varchar(30)&lt;br&gt;birthCountry: varchar(30)&lt;br&gt;birthState: varchar(30)&lt;br&gt;address1:varchar(30)&lt;br&gt;address2:varchar(30)&lt;br&gt;address3:varchar(30)&lt;br&gt;address4:varchar(30)&lt;br&gt;city: varchar(30)&lt;br&gt;state: varchar(30)&lt;br&gt;postal: int&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="ES5bPRw_T_LUZl0YmbPk-1">
+          <mxGeometry x="80" y="150" width="170" height="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
