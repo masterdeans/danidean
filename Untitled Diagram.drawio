@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-18T04:00:21.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="O-RCIkdk4lgy7pl5qtpR" compressed="false" version="13.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-09-18T04:47:21.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="EKd-zM5QcKm8vTAH2gMO" compressed="false" version="13.7.3" type="github" pages="2">
   <diagram id="Xkr1ojVR8jTouUEQAdM9" name="PSCS flow diagram">
     <mxGraphModel dx="895" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -521,13 +521,89 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="PZ7A_AvTy1Xx865y7w8i" name="SQL database">
-    <mxGraphModel dx="895" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="PZ7A_AvTy1Xx865y7w8i" name="database">
+    <mxGraphModel dx="1492" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ES5bPRw_T_LUZl0YmbPk-0" />
         <mxCell id="ES5bPRw_T_LUZl0YmbPk-1" parent="ES5bPRw_T_LUZl0YmbPk-0" />
         <mxCell id="ES5bPRw_T_LUZl0YmbPk-2" value="&lt;p style=&quot;line-height: 50%&quot;&gt;&lt;/p&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: rgb(228 , 228 , 228) ; padding: 2px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;NEW_APPLICANT_TBL&lt;/font&gt;&lt;/div&gt;&lt;table style=&quot;width: 100%&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;PK&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;IDnumber : int(11)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;FK1&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;lastname : varchar(30)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;firstname : varchar(30)&lt;br&gt;middlename: varchar(30)&lt;br&gt;Suffix: varchar(15)&lt;br&gt;dateofbirth: datetime&lt;br&gt;martialStatus: varchar(30)&lt;br&gt;gender: varchar(30)&lt;br&gt;country: varchar(30)&lt;br&gt;nationalIdType: varchar(30)&lt;br&gt;nationalId: int&lt;br&gt;country: varchar(30)&lt;br&gt;phonetype: varchar(30)&lt;br&gt;phonenumber: int&lt;br&gt;emailType: varchar(30)&lt;br&gt;emailAddress: varchar(30)&lt;br&gt;birthLocation: varchar(30)&lt;br&gt;birthCountry: varchar(30)&lt;br&gt;birthState: varchar(30)&lt;br&gt;address1:varchar(30)&lt;br&gt;address2:varchar(30)&lt;br&gt;address3:varchar(30)&lt;br&gt;address4:varchar(30)&lt;br&gt;city: varchar(30)&lt;br&gt;state: varchar(30)&lt;br&gt;postal: int&lt;br&gt;admitTerm: int&lt;br&gt;academicProgram: varchar(30)&lt;br&gt;campus: varchar(3)&lt;br&gt;programAction: varchar(30)&lt;br&gt;academicPlan: varchar(30)&lt;br&gt;academicLevel: varchar(30)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;spacingTop=39;" vertex="1" parent="ES5bPRw_T_LUZl0YmbPk-1">
-          <mxGeometry x="60" y="70" width="200" height="510" as="geometry" />
+          <mxGeometry x="330" y="40" width="200" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-0" value="Relation" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="ES5bPRw_T_LUZl0YmbPk-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="290" as="sourcePoint" />
+            <mxPoint x="200" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-1" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="s1RlR3C1m2YIRZXDD1gI-0">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-2" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="s1RlR3C1m2YIRZXDD1gI-0">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-3" value="&lt;p style=&quot;line-height: 50%&quot;&gt;&lt;/p&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: rgb(228 , 228 , 228) ; padding: 2px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;ACADEMIC_INFORMATION&lt;/font&gt;_TBL&lt;/div&gt;&lt;table style=&quot;width: 100%&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;PK&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;IDnumber : int(11)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;FK1&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;lastname : varchar(30)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;firstname : varchar(30)&lt;br&gt;middlename: varchar(30)&lt;br&gt;externalOrgId: int&lt;br&gt;termType: varchar(30)&lt;br&gt;termYear: int&lt;br&gt;fromDate: datetime&lt;br&gt;toDate: datetime&lt;br&gt;career: varchar(30)&lt;br&gt;externalTerm: varchar(30)&lt;br&gt;academicLevel: varchar(30)&lt;br&gt;dataNumber: int&lt;br&gt;dataSource: varchar(30)&lt;br&gt;acadLevel: varchar(30)&lt;br&gt;institution: varchar(30)&lt;br&gt;courseType: varchar(30)&lt;br&gt;unitType: varchar(30)&lt;br&gt;gradingScheme: varchar(30)&lt;br&gt;externalCareer: varchar(30)&lt;br&gt;termType: varchar(30)&lt;br&gt;beginDate: dateTime&lt;br&gt;endDate: dateTime&lt;br&gt;courseLevel: varchar(30)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;spacingTop=39;" vertex="1" parent="ES5bPRw_T_LUZl0YmbPk-1">
+          <mxGeometry x="100" y="620" width="200" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-4" value="Relation" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="ES5bPRw_T_LUZl0YmbPk-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="280" as="sourcePoint" />
+            <mxPoint x="680" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-5" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="s1RlR3C1m2YIRZXDD1gI-4">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-6" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="s1RlR3C1m2YIRZXDD1gI-4">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-7" value="&lt;p style=&quot;line-height: 50%&quot;&gt;&lt;/p&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: rgb(228 , 228 , 228) ; padding: 2px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;RELATIONSHIP_TBL&lt;/font&gt;&lt;/div&gt;&lt;table style=&quot;width: 100%&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;PK&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;IDnumber : int(11)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;FK1&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;lastname : varchar(30)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;firstname : varchar(30)&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;spacingTop=39;" vertex="1" parent="ES5bPRw_T_LUZl0YmbPk-1">
+          <mxGeometry x="560" y="420" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-8" value="name" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="ES5bPRw_T_LUZl0YmbPk-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.5" y="530" as="sourcePoint" />
+            <mxPoint x="199.5" y="610" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-9" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="s1RlR3C1m2YIRZXDD1gI-8">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-10" value="&lt;p style=&quot;line-height: 50%&quot;&gt;&lt;/p&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: rgb(228 , 228 , 228) ; padding: 2px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;ACADEMIC_INFORMATION_TBL&lt;/font&gt;&lt;/div&gt;&lt;table style=&quot;width: 100%&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;PK&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;IDnumber : int(11)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;FK1&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;lastname : varchar(30)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;firstname : varchar(30)&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;spacingTop=39;" vertex="1" parent="ES5bPRw_T_LUZl0YmbPk-1">
+          <mxGeometry x="100" y="420" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-11" value="name" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="ES5bPRw_T_LUZl0YmbPk-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="659.5" y="530" as="sourcePoint" />
+            <mxPoint x="659.5" y="610" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-12" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="s1RlR3C1m2YIRZXDD1gI-11">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-13" value="&lt;p style=&quot;line-height: 50%&quot;&gt;&lt;/p&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: rgb(228 , 228 , 228) ; padding: 2px&quot;&gt;RELATIONSHIP_TBL&lt;/div&gt;&lt;table style=&quot;width: 100%&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;PK&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;IDnumber : int(11)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;FK1&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;lastname : varchar(30)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;GuardianfullName: varchar(30)&lt;br&gt;relationship: varchar(30)&lt;br&gt;prefix: varchar(30)&lt;br&gt;suffix: vaarchar(30)&lt;br&gt;sex: varchar(30)&lt;br&gt;martialStatus: varchar(30)&lt;br&gt;guardian: varchar(30)&lt;br&gt;country: varchar(30)&lt;br&gt;emailAddress: varchar(30)&lt;br&gt;address1:varchar(30)&lt;br&gt;address2:varchar(30)&lt;br&gt;address3:varchar(30)&lt;br&gt;address4:varchar(30)&lt;br&gt;city: varchar(30)&lt;br&gt;state: varchar(30)&lt;br&gt;postal: int&lt;br&gt;contactNumber: int&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;spacingTop=39;" vertex="1" parent="ES5bPRw_T_LUZl0YmbPk-1">
+          <mxGeometry x="560" y="620" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-14" value="name" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="ES5bPRw_T_LUZl0YmbPk-1">
+          <mxGeometry x="-0.8462" relative="1" as="geometry">
+            <mxPoint x="310" y="710" as="sourcePoint" />
+            <mxPoint x="420" y="560" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-15" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="s1RlR3C1m2YIRZXDD1gI-14">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-16" value="name" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="ES5bPRw_T_LUZl0YmbPk-1">
+          <mxGeometry x="-0.8462" relative="1" as="geometry">
+            <mxPoint x="540" y="710" as="sourcePoint" />
+            <mxPoint x="430" y="560" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1RlR3C1m2YIRZXDD1gI-17" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="s1RlR3C1m2YIRZXDD1gI-16">
+          <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
