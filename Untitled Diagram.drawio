@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-09T01:11:56.296Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="EOYVFi_-TOPCmCgUnNxl" compressed="false" version="13.7.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-10-09T01:48:22.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="Y48BjRpfIqSybSrJRqE9" compressed="false" version="13.7.8" type="github" pages="3">
   <diagram id="PZ7A_AvTy1Xx865y7w8i" name="UML">
     <mxGraphModel dx="862" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -366,7 +366,7 @@
         <mxCell id="bZO1TMH0GPu6-885IVwu-0" />
         <mxCell id="bZO1TMH0GPu6-885IVwu-1" parent="bZO1TMH0GPu6-885IVwu-0" />
         <mxCell id="LMLLs--kNKQ6SfWn4w1X-0" value="PS_PERSONAL_DATA" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="bZO1TMH0GPu6-885IVwu-1" vertex="1">
-          <mxGeometry x="190" y="80" width="270" height="2652" as="geometry" />
+          <mxGeometry x="190" y="80" width="270" height="3484" as="geometry" />
         </mxCell>
         <mxCell id="LMLLs--kNKQ6SfWn4w1X-1" value="+ EMPLID: nvarchar(11)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="LMLLs--kNKQ6SfWn4w1X-0" vertex="1">
           <mxGeometry y="26" width="270" height="26" as="geometry" />
@@ -670,6 +670,102 @@
         </mxCell>
         <mxCell id="1Fc7cD8raPsRLcXYEQTn-43" value="+ MILITARY_STAT_GER: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
           <mxGeometry y="2626" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-44" value="+ EXPCTD_MILITARY_DT: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="2652" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-45" value="+ HR_RESPONSIBLE_ID: nvarchar(11)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="2678" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-46" value="+ SMOKER: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="2704" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-47" value="+ SMOKER_DT: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="2730" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-48" value="+ GVT_CRED_MIL_SVCE: nvarchar(4)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="2756" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-49" value="+ GVT_MILITARY_COMP: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="2782" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-50" value="+ GVT_MIL_GRADE: nvarchar(3)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="2808" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-51" value="+ GVT_MIL_RESRVE_CAT: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="2834" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-52" value="+ GVT_MIL_SEP_RET: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="2860" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-53" value="+ GVT_MIL_SVCE_END: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="2886" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-54" value="+ GVT_MIL_SVCE_START: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="2912" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-55" value="+ GVT_MIL_VERIFY: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="2938" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-56" value="+ GVT_MIL_PAR_NBR_LAST: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="2964" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-57" value="+ GVT_UNIF_SVC_CTR: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="2990" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-58" value="+ GVT_VET_PREF_APPT: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3016" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-59" value="+ GVT_VET_PREF_RIF: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3042" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-60" value="+ GVT_CHANGE_FLAG: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3068" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-61" value="+ GVT_DRAFT_STATUS: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3094" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-62" value="+ GVT_YR_ATTAINED: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3120" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-63" value="+ DISABLED_VET: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3146" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-64" value="+ DISABLED: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3172" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-65" value="+ GVT_DISABILITY_CD: nvarchar(2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3198" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-66" value="+ GRADE: nvarchar(3)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3224" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-67" value="+ SAL_ADMIN_PLAN: nvarchar(4)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3250" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-68" value="+ GVT_CURR_AGCY_EMPL: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3276" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-69" value="+ GVT_CURR_FED_EMPL: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3302" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-70" value="+ GVT_HIGH_PAY_PLAN: nvarchar(2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3328" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-71" value="+ GVT_HIGH_GRADE: nvarchar(3)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3354" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-72" value="+ GVT_PREV_AGCY_EMPL: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3380" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-73" value="+ GVT_PREV_FED_EMPL: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3406" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-74" value="+ GVT_SEP_INCENTIVE: nvarchar(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3432" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fc7cD8raPsRLcXYEQTn-75" value="+ GVT_SEP_INCENTIVE_DT: datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LMLLs--kNKQ6SfWn4w1X-0">
+          <mxGeometry y="3458" width="270" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
